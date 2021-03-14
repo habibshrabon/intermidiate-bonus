@@ -36,7 +36,7 @@ function App() {
       <AccessAlarmIcon></AccessAlarmIcon>
       <ThumbUpAltIcon onClick={handelLike} color={likeColor}></ThumbUpAltIcon>
       <h1>Name: {singelUser.name}</h1>
-      <h2>Random Gender: {randomUser.name?.first}</h2>
+      <h2>Random Gender Name: {randomUser.name?.first}</h2>
 
       {
         users.map(user => <li>{user.name}</li>)
